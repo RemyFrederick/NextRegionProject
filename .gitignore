@@ -1,0 +1,8 @@
+# Ignore example code and local artifacts
+*example*.ipynb
+example*.ipynb
+ACT_Regression_Example*.ipynb
+
+# Ignore local dataset files
+*.xlsx
+*.xls
