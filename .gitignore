@@ -2,7 +2,10 @@
 *example*.ipynb
 example*.ipynb
 ACT_Regression_Example*.ipynb
+*.ipynb_checkpoints/
 
 # Ignore local dataset files
 *.xlsx
 *.xls
+*.csv
+data/
