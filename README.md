@@ -1,7 +1,5 @@
 # ACT Score Regression
 
-## Quickstart
-
 ## Requirements
 
 ```bash
@@ -10,10 +8,15 @@ python -m pip install jupyter pandas numpy scikit-learn matplotlib seaborn jax j
 
 ## Usage
 
-Use the notebook directly:
+```bash
+jupyter notebook
+```
+
+Open either notebook:
 
 ```bash
-jupyter notebook act_regression.ipynb
+jupyter notebook act_regression_single_run.ipynb
+jupyter notebook act_regression_optimizer_convergence.ipynb
 ```
 
 The notebook uses the default remote dataset URL:
@@ -22,5 +25,5 @@ The notebook uses the default remote dataset URL:
 
 ## Files
 
-- `act_regression.ipynb`: reference notebook (from-scratch NN workflow)
-- `README.md`: project instructions
+- `act_regression_single_run.ipynb`: single-run training/evaluation workflow
+- `act_regression_optimizer_convergence.ipynb`: four-mode comparison + convergence plots
