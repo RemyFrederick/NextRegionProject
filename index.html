@@ -27,12 +27,44 @@
   </style>
 </head>
 <body>
-  <h1>ACT Score Regression</h1>
+  <h1>Analysis of Gradient Descent Variants for Neural Network Optimization</h1>
+  <h2>Overview</h2>
+  <p>
+    This project compares full-batch and mini-batch gradient descent variants for
+    neural network training, focusing on convergence behavior and final MSE outcomes.
+  </p>
+  <p>
+    Current run architecture: a multilayer neural network with input dimension 5,
+    two hidden layers (64 and 32 neurons), and one output neuron
+    (<code>[5, 64, 32, 1]</code>).
+  </p>
+  <h2>Key Findings</h2>
+  <ul>
+    <li>Best method in the saved run: <strong>Momentum (Mini-Batch)</strong> with final test MSE <strong>2.1752</strong>.</li>
+    <li>Mini-batch variants achieved lower final train and test MSE than full-batch variants in this run.</li>
+  </ul>
+
+  <h2>Methods Compared</h2>
+  <ul>
+    <li>SGD (Full Batch)</li>
+    <li>Mini-Batch GD</li>
+    <li>Momentum (Full Batch)</li>
+    <li>Momentum (Mini-Batch)</li>
+  </ul>
+
+  <h2>Data Source</h2>
+  <p>
+    <a href="https://raw.githubusercontent.com/brian-fischer/DATA-5100/main/EdGap_data.xlsx">
+      EdGap_data.xlsx (GitHub raw link)
+    </a>
+  </p>
+
   <p>Project artifacts:</p>
   <ul>
     <li><a href="act_regression_single_run.html">Single Run Notebook (HTML)</a></li>
     <li><a href="act_regression_optimizer_convergence.html">Optimizer Convergence Notebook (HTML)</a></li>
-    <li><a href="README.md">README</a></li>
   </ul>
+  <hr>
+  <p><strong>Course Project</strong> | Numerical Methods | Neural Network Optimization</p>
 </body>
 </html>
